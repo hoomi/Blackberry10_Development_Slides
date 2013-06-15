@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>BB10 Development Overview</title>
+
+		<meta name="description" content="Overview of application development on BB10">
+		<meta name="author" content="Hooman Ostovari">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<h1>Development on Blackberry 10</h1>
+					<h3>Quick Introduction</h3>
+					<p>
+						<small>Created by <b>Hooman Ostovari</b> / <a href="http://twitter.com/hoomi_2010">@hoomi_2010</a></small>
+					</p>
+				</section>
+				<section>
+					<section>
+						<h2>Let's start with a bit of bad news!!!</h2>
+					</section>
+					<section>
+						<h2>Native developement is done on C++</h2>
+						<p>
+							Sorry! You have to rewrite your BB7 applications from Java to C++:(
+						</p>
+					</section>
+				</section>
+				<section>
+					<h2>But...</h2>
+				</section>
+				<section>
+					<section>
+						<h2> The Good new is </h2>
+					</section>
+					<section>
+						<h2> More opportunities to develop an application </h2>
+					</section>
+					<section>
+						<ul>
+							<li>
+								<h3>Qt/qml</h3>
+							</li>
+							<li>
+								<h3>Pure C++</h3>
+							</li>
+							<li>
+								<h3>HTML5/Javascript/CSS3</h3>
+							</li>
+							<li>
+								<h3>Adobe AIR</h3>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2> And </h2>
+						<img src="img/bbm-apk.jpg"/>
+						<aside>
+							<small>Image taken from : http://apkandroidnew.com/download-bbm-apk-android</small>
+						</aside>
+					</section>
+					<section>
+						<h2> Yes!!! You can now port your existing Android apk to BB10 </h2>
+					</section>
+				</section>
+
+				<section>
+					<h2>Let's see....</h2>
+				</section>
+				<section>
+					<section>
+						<h2>Qt/QML</h2>
+						<ul>
+							<li>
+								QML for the UI
+							</li>
+							<li>
+								Qt framework which is cross-platform
+							</li>
+							<li>
+								IDE is Eclipse based
+							</li>
+							<li>
+								Possibly to attract Symbian develoeprs?
+							</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Pure C++</h2>
+						<ul>
+							<li>
+								Open GL
+							</li>
+							<li>
+								iOS porting possible
+							</li>
+							<li>
+								Microsoft Visual Studio plugin
+							</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>HTML5/Javascript/CSS3</h2>
+						<ul>
+							<li>
+								PhoneGap/Cordova
+							</li>
+							<li>
+								Native extension to access native APIs
+							</li>
+							<li>
+								WebGL is supported
+							</li>
+							<li>
+								Webworks SDK is open source
+							</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Android</h2>
+						<ul>
+							<li>
+								Online tool to convert the apk to bar
+							</li>
+							<li>
+								Eclipse plugin to directly compile bar from Android code
+							</li>
+							<li>
+								Only support Gingerbread APIs (10.2 will support Jelly Beans)
+							</li>
+							<li>
+								Not all the libraries are supported
+							</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Adobe AIR</h2>
+						<ul>
+							<li>
+								I do not have much to say !!! :)
+							</li>
+							<li>
+								Native Extensions
+							</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h1>THANK YOU</h1>
+					<h3>by: Hooman Ostovari</h3>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls : true,
+        progress : true,
+        history : true,
+        center : true,
+
+        theme : Reveal.getQueryHash().theme, // available themes are in
+        // /css/theme
+        transition : 'concave', //
+        // default/cube/page/concave/zoom/linear/fade/none
+
+      });
+
+		</script>
+
+	</body>
+</html>
